@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+}
+
+footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+nav{
+    background-color:  #28282d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+   height: 100%;
+   align-items: center;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-me-button{
+    background-color: coral;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.about-me-button:hover{
+    background-color: rgb(247, 109, 59);
+    cursor: pointer;
+}
+
+.intro{
+    padding: 80px
+}
+
+.logo{
+    height: 50px;
+    margin: 10px;
+}
+
+.social{
+    margin-top: 10px;
+}
+
+#about-me{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+#profile-pic{
+    width: 300px;
+    border-radius: 100%;
+}
+
+ h2{
+     font-size: 60px;
+ }
+
+ .about-me-text{
+     width: 50%;
+ }
+
+ #projects{
+    text-align: center;
+    padding: 80px;
+ }
+
+ #project-container{
+     display: flex;
+     gap: 10px;
+ }
+
+ .project-card{
+     height: 400px;
+     width: 200px;
+     background-color: black;
+ }
+
+ a{
+     text-decoration: none;
+     color: white;
+ }
+
+
+
